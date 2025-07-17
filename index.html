@@ -1,58 +1,155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Oz Place</title>
-    <link rel="stylesheet" href="src/styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/bootstrap.min.css">
+    <script src="src/js/bootstrap.bundle.min.js" defer></script>
+
+    <title>Bootstrap</title>
 
 </head>
 
 <body>
-
     <header>
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container justify-content-center">
-                <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="src/assets/images/Logo-nexcent.svg" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Feature</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+
                     </ul>
+                </div>
+                <div class="btn-wrapper">
+                    <button type="button" class="btn btn-outline-success">Login</button>
+                    <button type="button" class="btn btn-success">Sign Up</button>
                 </div>
             </div>
         </nav>
+
     </header>
+
+    <main>
+
+        <div class="content-lessons">
+            <h1>Lessons and insights <span>from 8 years</span></h1>
+            <p>Where to grow your business as a photographer: site or social media?</p>
+            <button type="button" class="btn btn-outline-success">Login</button>
+        </div>
+
+        <div class="img-lessons">
+            <img src="src/assets/images/main-illustration.svg" alt="">
+        </div>
+
+    </main>
+
+    <section class="our-clients">
+        <div class="our-clients-content">
+            <h2>Our Clients</h2>
+            <p>We have been working with some Fortune 500+ clients</p>
+        </div>
+    </section>
+
+    <section class="our-clients-logo">
+        <img src="src/assets/images/logo-empresa1.svg" alt="">
+        <img src="src/assets/images/logo-empresa2.svg" alt="">
+        <img src="src/assets/images/logo-empresa3.svg" alt="">
+        <img src="src/assets/images/logo-empresa4.svg" alt="">
+        <img src="src/assets/images/logo-empresa5.svg" alt="">
+        <img src="src/assets/images/logo-empresa6.svg" alt="">
+        <img src="src/assets/images/logo-empresa7.svg" alt="">
+    </section>
+
+    <section class="manage-system">
+        <div class="manage-content">
+            <h2>Manage your entire community in a single system</h2>
+            <p>Who is Nextcent suitable for?</p>
+        </div>
+
+        <div class="card-wrapper">
+
+            <div class="card" style="width: 18rem;">
+                <img src="src/assets/images/img-membership.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3>Membership Organizations</h3>
+                    <p class="card-text">Our membership management software provides full automation of membership
+                        renewals and payments</p>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="src/assets/images/img-national.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3>National Associations</h3>
+                    <p class="card-text">Our membership management software provides full automation of membership
+                        renewals and payments</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/assets/images/img-clubs.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Clubs And Groups</h3>
+                        <p class="card-text">Our membership management software provides full automation of
+                            membership renewals and payments</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="pixelgrade">
+
+        <div class="img-pixelgrade">
+            <img src="src/assets/images/pixelgrade-illustration.svg" alt="">
+        </div>
+
+        <div class="pixelgrade-content">
+            <h3>The unseen of spending three years at Pixelgrade</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam
+                vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique
+                iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae,
+                tempus sem. Donec elementum pulvinar odio.</p>
+            <button type="button" class="btn btn-success">Learn More</button>
+        </div>
+
+    </section>
 
 </body>
 
