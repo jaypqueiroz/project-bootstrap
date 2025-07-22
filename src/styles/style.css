@@ -1,40 +1,66 @@
 @import url('./global.css');
 
-header{
+header {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     background-color: var(--color-neutral-silver);
     padding: 22px 0;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: var(--color-neutral-silver);
 }
 
-.collapse{
+.collapse {
     display: flex;
     justify-content: center;
 }
 
-.collapse > ul{
+.collapse>ul {
     display: flex;
     gap: 50px;
 }
 
-.navbar> .container-fluid > .navbar-brand > img{
+.navbar>.container-fluid>.navbar-brand>img {
     display: flex;
-    margin-right: 90px;
+    margin-right: 5rem;
+    margin-left: 3rem;
 }
 
-.btn-wrapper{
+/* Estilo padrão (desktop) */
+.btn-wrapper-fluid {
     display: flex;
-    gap: 6px;
-    margin-left: 80px;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+/* Responsivo: quando a tela tiver até 991px (tamanho do "lg" do Bootstrap), muda o layout */
+@media (max-width: 1100px) {
+    .btn-wrapper-fluid {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .btn-wrapper-fluid .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .btn-wrapper-fluid{
+        display: flex;
+        
+    }
 }
 
 
-main{
+
+main {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,51 +69,58 @@ main{
     background-color: var(--color-neutral-silver);
 }
 
-.content-lessons{
+
+main>.img-lesson {
+    display: flex;
+    width: 391px;
+    height: 407px;
+}
+
+.content-lessons {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 657px;
 }
 
-.content-lessons h1{
+.content-lessons>.tittle>h1 {
     font-size: 64px;
     color: var(--color-neutral-d-grey);
 }
 
-.content-lessons h1 span{
+.content-lessons>.tittle>h1>span {
     color: var(--color-primary);
 }
 
-.content-lessons p{
+.content-lessons>.text>p {
     color: var(--color-neutral-grey);
 }
 
-.content-lessons button{
+.content-lessons>.btn-main>button {
     width: 128px;
 }
 
 /* -----------Our clients */
 
-.our-clients{
+.our-clients {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 40px 0px;
-    gap: 16px;   
+    gap: 16px;
 }
 
-.our-clients-content h2{
+.our-clients-content h2 {
     font-size: 36px;
     color: var(--color-neutral-d-grey);
     gap: 8px;
 }
 
-.our-clients-content p{
+.our-clients-content p {
     color: var(--color-neutral-grey);
 }
 
-.our-clients-logo{
+.our-clients-logo {
     display: flex;
     justify-content: center;
     gap: 136px;
@@ -96,7 +129,7 @@ main{
 
 /* ---------Manage */
 
-.manage-system{
+.manage-system {
     width: 100%;
     height: 416px;
 
@@ -106,7 +139,7 @@ main{
     margin-top: 40px;
 }
 
-.manage-content > h2{
+.manage-content>h2 {
     font-size: 36px;
     font-weight: 600;
     width: 542px;
@@ -114,7 +147,7 @@ main{
     color: var(--color-neutral-d-grey);
 }
 
-.manage-content>p{
+.manage-content>p {
     font-size: 16px;
     color: var(--color-neutral-grey);
     margin-top: 8px;
@@ -123,11 +156,11 @@ main{
 
 }
 
-.card-wrapper{
+.card-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width: 100%;
     gap: 127px;
     margin-top: 16px;
 }
@@ -141,18 +174,18 @@ main{
     padding: 24px 32px;
     border-radius: 8px;
     background-color: #FFFFFF;
-    box-shadow: 0px 2px 4px 0px  rgba(171, 190, 209, 0.20)
-} 
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20)
+}
 
- .card > h3{
+.card>h3 {
     font-size: 28px;
     font-weight: 700;
     color: var(--color-neutral-d-grey);
     text-align: center;
     margin-top: 16px;
-}   
+}
 
-.card > p{
+.card>p {
     font-size: 14px;
     color: var(--color-neutral-grey);
     text-align: center;
@@ -161,7 +194,7 @@ main{
 
 /* ------- Pixelgrade */
 
-.pixelgrade{
+.pixelgrade {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,17 +202,17 @@ main{
     margin-top: 29px;
 }
 
-.img-pixelgrade{
+.img-pixelgrade {
     width: 442px;
     height: 433px;
 }
 
-.pixelgrade-content{
+.pixelgrade-content {
     width: 661px;
     gap: 32px;
 }
 
-.pixelgrade-content>h3{
+.pixelgrade-content>h3 {
     font-size: 36px;
     color: var(--color-neutral-d-grey);
     width: 601px;
@@ -188,7 +221,7 @@ main{
     padding-right: 60px;
 }
 
-.pixelgrade-content>p{
+.pixelgrade-content>p {
     font-size: 14px;
     color: var(--color-neutral-grey);
     margin-top: 16px;
