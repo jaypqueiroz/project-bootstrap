@@ -9,7 +9,7 @@
 :root{
     --color-neutral-black:#263238;
     --color-neutral-d-grey: #4D4D4D;
-    --color-neutral-grey:#717171;
+    --color-neutral-grey:#414141;
     --color-neutral-l-grey:#89939E;
     --color-neutral-grey-blue:#ABBED1;
     --color-neutral-silver:#F5F7FA;
@@ -44,7 +44,7 @@ body{
     font-family: var(--font);
 }
 
-.btn-primary{
+/* .btn-primary{
     padding: 14px 32px;
     border-radius: 4px;
     background-color: var(--color-primary);
@@ -58,4 +58,4 @@ body{
 
 .btn-primary:hover{
     background-color: var(--color-shade3);
-}
+} */

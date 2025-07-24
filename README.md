@@ -1,16 +1,16 @@
-# Estudo de Caso – Bootstrap 5: Grid, Componentes, Responsividade
+# PoC – Bootstrap 5: Grid, Componentes, Responsividade
 
 > **Aluno: João Pedro de Queiroz Leite** 
 >
 > **Turma:Desenvolvedor Front-end**
 >
-> **Data:16/07/2025**
+> **Data:13/06/2025**
 
 ---
 
 ## 1. Introdução
 
-O framework Bootstrap, é uma ferramente que auxilia em projetos que exigem uma responsividade e agilidade. Todos os componentes por si só já tem responsividade, logo é uma preocupação a menos. Muito prático de se ser utilizado, não necessitando um nível muito avançado de conhecimentos de front-end para usá-lo. Muitos projetos legados ainda utilizam deste framework, mesmo ele tendo perdido popularidade e até funcionalidades, se comparado com o Tailwind CSS que surgiu como algo mais moderno.
+O framework Bootstrap, é uma ferramente que auxilia em projetos que exigem uma responsividade e agilidade. Todos os componentes por si só já tem responsividade, logo é uma preocupação a menos. Muito prático de se ser utilizado, não necessitando um nível muito avançado de conhecimentos de front-end para usá-lo. Muitos projetos legados (projetos já existentes) ainda utilizam deste framework, mesmo ele tendo perdido popularidade e até funcionalidades, se comparado com o Tailwind CSS que surgiu como algo mais moderno.
 
 ---
 
