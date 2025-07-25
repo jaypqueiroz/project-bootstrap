@@ -1,6 +1,6 @@
 # PoC – Bootstrap 5: Grid, Componentes, Responsividade
 
-> **Aluno: João Pedro de Queiroz Leite** 
+> **Aluno: João Pedro de Queiroz Leite**
 >
 > **Turma:Desenvolvedor Front-end**
 >
@@ -16,21 +16,48 @@ O framework Bootstrap, é uma ferramente que auxilia em projetos que exigem uma 
 
 ## 2. Aplicações e Benefícios
 
-- Projetos legado (Projetos já existentes que precisam de manutenção ou atualizações);
-- Responsividade e praticidade são os pontos forte do Bootstrap;
-- Um iniciante no front-end pode utilizá-lo sem medo.
+- ### Onde esse conceito é utilizado?
+  É usado na contrução de páginas web completas, lading pages, trabalhos pessoais, trabalhos institucionais e até portfólio.
+- ### Quais problemas ele resolve?
+  Ele resolve problemas como
+  - Falta de padronização entre sites;
+  - A dificuldade de criar layouts responsivos do zero;
+  - Repetição de código para elementos comuns, como botões, alertas, etc.
+- ### Quais são as vantagens?
+  Suas vantagens são as seguintes
+  - Layout responsivo pronto com o sistem grid;
+  - Variedade de componentes prontos;
+  - Customização com classes utilitárias;
+  - Integração simples com projetos existentes.
 
 ---
 
-## 3. Diferenças e Comparações (se aplicável)
+## 3. Diferenças e Comparações
 
-Para você fazer um botão com um CSS puro, seria trabalhoso quando se pensa em um site com várias páginas ou até mesmo uma navbar para cada dispositivo que fosse acessar o site. Neste momento entra o Bootstrap, com apenas as váriaveis criadas por ele, você já tem tudo feito e com animações, apenas copiando e colando o código dado por eles, por isso ele foi tão popular em sua época.
+### Bootstrap x CSS Puro
+
+    Para você fazer um botão com um CSS puro, seria trabalhoso quando se pensa em um site com várias páginas ou até mesmo uma navbar para cada dispositivo que fosse acessar o site. Neste momento entra o Bootstrap, com apenas as váriaveis criadas por ele, você já tem tudo feito e com animações, apenas copiando e colando o código dado por eles, por isso ele foi tão popular em sua época. Exigindo mais planejamento e conhecimento.
+
+### Bootstrap x Tailwind CSS
+
+    Tailwind é baseado em utilitários (classes únicas por estilo), o que dá mais liberdade, mas exige mais controle visual manual. Bootstrap oferece uma solução mais "pronta para uso", ideal para quem quer agilidade ou está começando.
 
 ---
 
 ## 4. Exemplo Prático
 
-Apresente um código funcional com explicação.
+    <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+
+![alt text](./image.png)
+
+### Explicação:
 
 ---
 
@@ -62,3 +89,5 @@ Resumo do que aprendeu e recomendações.
 - [x] Fontes listadas
 - [x] Slides prontos
 - [x] Arquivo no GitHub
+
+Projetos legado (Projetos já existentes que precisam de manutenção ou atualizações);
