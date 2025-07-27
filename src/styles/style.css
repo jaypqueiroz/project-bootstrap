@@ -1,118 +1,114 @@
 @import url('global.css');
 
+#navbarNavDropdown>ul>li>a {
+    color: var(--color-neutral-silver);
+}
+
 
 #img-nav {
     width: 6rem;
 }
 
 main {
-    background-color: black;
-    border-top: 2px dashed var(--color-neutral-white);
-    border-bottom: 2px dashed var(--color-neutral-white);
+    background-color: #cacbe6;
+    /* border-top: 2px dashed var(--color-neutral-white); */
+    /* border-bottom: 2px dashed var(--color-neutral-white); */
 
 }
-
-
 
 #main-tittle {
     font-size: 5rem;
     font-weight: 1rem;
     color: var(--color-neutral-white);
+    text-shadow:
+        1px 1px 0 black,
+        1px 1px 0 black,
+        1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 #main-text {
     font-size: 1.5rem;
     font-weight: 3rem;
     color: var(--color-neutral-white);
+    text-shadow:
+        1px 1px 0 black,
+        1px 1px 0 black,
+        1px 1px 0 black,
+        1px 1px 0 black;
+    
 }
 
+main {
+    background-image: url('../assets/images/back-garden.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 #why {
-    background-color: var(--color-neutral-grey);
-    border-bottom: 2px dashed var(--color-neutral-white);
+    background-color: #22691fbb;
 }
 
 #why-tittle {
-    color: var(--color-neutral-white);
+    color: var(--color-neutral-silver);
     font-size: 2.5rem;
     font-weight: 5rem;
 }
 
 #why-text {
-    color: var(--color-neutral-white);
+    color: var(--color-neutral-silver);
     font-size: 1.5rem;
     font-weight: 2rem;
 }
 
 
 #who {
-    background-color: black;
-    border-bottom: 2px dashed var(--color-neutral-white);
+    background-color: #f8f4eb;
 }
 
-#who-tittle{
-    color: var(--color-neutral-white);
+#who-tittle {
+    color: var(--color-neutral-black);
 }
 
-#last{
-    background-color: black;
-    border-bottom: 2px dashed var(--color-neutral-white);
+#last {
+    background-color: #22691fbb;
 }
 
-#last-tittle{
-    color: var(--color-neutral-white);
+#last-tittle {
+    color: var(--color-neutral-silver);
     font-size: 2rem;
     font-weight: 2.5rem;
 }
 
-#last-text{
-    color: var(--color-neutral-white);
+#last-text {
+    color: var(--color-neutral-silver);
     font-size: 1rem;
     font-weight: 1rem;
 }
 
-footer{
-    background-color: black;
-    border-top: 2px dashed var(--color-neutral-white);
-    border-bottom: 3px dashed var(--color-neutral-white);
+footer {
+    background-color: #0b3b09cc;
 }
 
-#img-footer{
+#img-footer {
     width: 3rem;
 }
 
-.copyright{
+.copyright {
     color: var(--color-neutral-silver);
 }
 
-.footer-section > h2{
+.footer-section>h2 {
     color: var(--color-neutral-silver);
 }
 
-.footer-section > ul > li> a{
+.footer-section>ul>li>a {
     text-decoration: none;
     color: var(--color-neutral-silver);
 }
 
-/* Responsivo: quando a tela tiver até 991px (tamanho do "lg" do Bootstrap), muda o layout */
-
- /* @media (max-width: 1100px) {
-    .btn-wrapper-fluid {
-        flex-direction: column;
-        margin-left: 0;
-        margin-top: 1rem;
-        width: 100%;
-        align-items: flex-start;
-    }
-
-    .btn-wrapper-fluid .btn {
-        width: 100%;
-    }
+.myStyle {
+    background-color: #0b3b09cc;
 }
-
-@media (max-width: 900px){
-    .btn-wrapper-fluid{
-        display: flex;
-        
-    } */

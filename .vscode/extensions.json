@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "hossaini.bootstrap-intellisense"
+        "hossaini.bootstrap-intellisense",
+        "ritwickdey.liveserver"
     ]
 }

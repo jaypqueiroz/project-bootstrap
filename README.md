@@ -55,15 +55,23 @@ O framework Bootstrap, é uma ferramente que auxilia em projetos que exigem uma 
     </div>
     </div>
 
-![alt text](./image.png)
-
 ### Explicação:
-
+- class="card": aplica o estilo base de um card do Bootstrap;
+- style="width:18rem;": define a largura do card;
+- class="card-img-top": exibe uma imagem no topo do card;
+- class="card-body": agrupa o conteúdo interno do card;
+- class="card-tittle": título do card;
+- class="card-text": parágrafo de texto;
+- class="btn btn-primary": botão com estilo principal do Bootstrap.
 ---
 
 ## 5. Conclusão
 
-Resumo do que aprendeu e recomendações.
+Com essa spike, deu pra ver que o Bootstrap ainda é uma ferramenta útil pra quem quer montar um layout responsivo de forma rápida e sem complicação. Mesmo não sendo o mais moderno, ele resolve bem a parte visual com pouco código e ajuda muito quem tá começando ou quer entregar algo funcional rápido.
+
+Entendi melhor como o sistema de grid funciona, os componentes prontos e as vantagens em relação ao CSS puro. E também percebi que, em comparação com o Tailwind, o Bootstrap é mais direto, mas menos flexível.
+
+Pra projetos simples ou institucionais, vale a pena usar. Já em projetos mais avançados, talvez o Tailwind seja uma opção melhor.
 
 ---
 
@@ -71,14 +79,26 @@ Resumo do que aprendeu e recomendações.
 
 - (https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
+- (https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
 - (https://www.youtube.com/watch?v=lXS8PIDmG_E&t=50s)
+
+- (https://www.youtube.com/watch?v=VUAReozpoDo&t=332s)
+
+- (https://youtu.be/pvf9jX_Ej28?si=VhXx_jgRMNw1CEiE)
+
+- (https://youtube.com/shorts/3sInImf9SD0?si=5UiZZxl5A0A6rbK0)
+
+- (https://youtu.be/maoHDmRu3z4?si=Xi-ZJBvs0nUu4qXt)
+
+- ChatGPT
 
 ---
 
 ## 7. Slides da Apresentação
 
 📎 Link para os slides:
-[slides.com/seunome/tema](https://)
+[slides/JoaoPedro/Bootstrap5](https://www.canva.com/design/DAGqj-rBUco/yXCgG19ihD_DfDNjUIS7Ow/edit?utm_content=DAGqj-rBUco&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -89,5 +109,3 @@ Resumo do que aprendeu e recomendações.
 - [x] Fontes listadas
 - [x] Slides prontos
 - [x] Arquivo no GitHub
-
-Projetos legado (Projetos já existentes que precisam de manutenção ou atualizações);
